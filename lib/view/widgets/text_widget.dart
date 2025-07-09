@@ -11,7 +11,7 @@ class CustomTextWidget extends StatelessWidget {
       this.maxLines = 100,
       this.softWrap = true,
       this.textOverflow = TextOverflow.ellipsis,
-      this.font,
+      this.font = const TextStyle(fontFamily: 'Poppins'),
       this.fontWeight = FontWeight.normal,
       this.textAlign,
       this.textDecorationStyle,

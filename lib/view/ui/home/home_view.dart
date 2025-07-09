@@ -19,7 +19,7 @@ class HomeView extends StatelessWidget {
       backgroundColor: Colors.white,
       body: SafeArea(
           child: Padding(
-            padding: EdgeInsets.all(18.w),
+            padding: EdgeInsets.all(15.w),
             child: SingleChildScrollView(
               child: Column(
                   children: [
